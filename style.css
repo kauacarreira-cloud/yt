@@ -5,3 +5,16 @@ nav li {
   font-weight: 400;
   font-style: normal;
 }
+
+header {
+    display: inline-block;
+
+    border: 10px solid;
+    border-radius: 50px;
+
+    width: 241px;
+    height: 77px;
+
+    margin-right: 145px;
+    background-color: blueviolet;
+}
