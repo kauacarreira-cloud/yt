@@ -41,3 +41,23 @@ header nav ul li a {
     text-decoration: none;
 
 }
+
+header img{
+    width: 175px;
+    height: 110px;
+    object-fit: cover;
+
+
+    border: 10px solid;
+    border-radius: 25px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
