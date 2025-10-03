@@ -5,14 +5,14 @@ let trocou = false;
 
 
 const novasImagens = {
-    "dona1.jpeg": "astro9.jpeg",
-    "dona2.jpeg": "astro10.jpeg",
-    "dona3.jpeg": "astro11.jpeg",
-    "dona4.jpeg": "astro12.jpeg",
-    "dona5.jpeg": "astro13.jpeg",
-    "dona6.jpeg": "astro14.jpeg",
-    "donalogo.jpeg": "astrologo.jpeg",
-    "donacima.jpeg": "astrocima.jpeg"
+    "1.jpeg": "9.jpeg",
+    "2.jpeg": "10.jpeg",
+    "3.jpeg": "11.jpeg",
+    "4.jpeg": "12.jpeg",
+    "5.jpeg": "13.jpeg",
+    "6.jpeg": "14.jpeg",
+    "donalogo.jpeg": "raulogo.jpeg",
+    "donacima.jpeg": "raucima.jpeg"
 };
 
 botaoImagens.addEventListener("click", () => {
