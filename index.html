@@ -36,4 +36,41 @@
 
    <script src="yuri.js"></script>
 </body>
+<button id="botaoImagens">Imagens</button>
+
+<img id="imagemPrincipal" src="caminho/para/foto_atual.jpg" alt="Foto principal">
+<script>
+    // 1. Variáveis para o estado e as imagens
+    let fotosOriginais = true; // Para saber qual conjunto de fotos está ativo
+
+    // Caminhos das imagens
+    const caminhoFotoOriginal = "caminho/para/foto_atual.jpg";
+    const caminhoNovaFoto = "caminho/para/nova_foto.jpg";
+
+    // 2. Elementos HTML que vamos manipular
+    const botao = document.getElementById('botaoImagens');
+    const imagemPrincipal = document.getElementById('imagemPrincipal');
+
+    // 3. Função para trocar as fotos
+    function trocarFotos() {
+        if (fotosOriginais) {
+            // Se as fotos originais estão na tela, troca para as novas
+            imagemPrincipal.src = caminhoNovaFoto;
+            
+            // Você faria isso para todas as imagens que precisam ser trocadas
+            
+            fotosOriginais = false; // Atualiza o estado
+        } else {
+            // Se as novas fotos estão na tela, troca de volta para as originais
+            imagemPrincipal.src = caminhoFotoOriginal;
+
+            // Você faria isso para todas as imagens
+            
+            fotosOriginais = true; // Atualiza o estado
+        }
+    }
+
+    // 4. Conecta a função ao evento de clique do botão
+    botao.addEventListener('click', trocarFotos);
+</script>
 </html>
