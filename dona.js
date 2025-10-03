@@ -5,14 +5,14 @@ let trocou = false;
 
 
 const novasImagens = {
-    "yuri1.jpeg": "kaka1.jpeg",
-    "yuri2.jpeg": "kaka2.jpeg",
-    "yuri3.jpeg": "kaka3.jpeg",
-    "yuri4.jpeg": "kaka4.jpeg",
-    "yuri5.jpeg": "kaka5.jpeg",
-    "yuri6.jpeg": "kaka6.jpeg",
-    "yurilogo.jpeg": "kakalogo.jpeg",
-    "yuricima.jpeg": "kakacima.jpeg"
+    "dona1.jpeg": "astro9.jpeg",
+    "dona2.jpeg": "astro10.jpeg",
+    "dona3.jpeg": "astro11.jpeg",
+    "dona4.jpeg": "astro12.jpeg",
+    "dona5.jpeg": "astro13.jpeg",
+    "dona6.jpeg": "astro14.jpeg",
+    "donalogo.jpeg": "astrologo.jpeg",
+    "donacima.jpeg": "astrocima.jpeg"
 };
 
 botaoImagens.addEventListener("click", () => {
