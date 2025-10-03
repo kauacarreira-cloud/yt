@@ -11,8 +11,8 @@ const novasImagens = {
     "4.jpeg": "12.jpeg",
     "5.jpeg": "13.jpeg",
     "6.jpeg": "14.jpeg",
-    "donalogo.jpeg": "raulogo.jpeg",
-    "donacima.jpeg": "raucima.jpeg"
+    "77logo.jpeg": "raulogo.jpeg",
+    "77cima.jpeg": "raucima.jpeg"
 };
 
 botaoImagens.addEventListener("click", () => {
